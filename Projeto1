@@ -1,1 +1,15 @@
+public class TestaIdade {
 
+	public static void main(String[] args) {
+
+		int idade = 34;
+		int idadeNoAnoQueVem = idade + 1;
+		boolean menorIdade = idade < 50;
+		
+
+		System.out.println("minha idade atual é: " + idade);
+		System.out.println("No próximo ano terei: " + idadeNoAnoQueVem);
+
+	}
+
+}
